@@ -13,7 +13,7 @@ import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
 import NoImage from '../../images/no_image.jpg';
 
 import { Wrapper, Content, Text } from './MovieInfo.styles';
-import MovieInfoBar from '../MovieInfoBar';
+
 
 const MovieInfo = ({ movie }) => (
     <Wrapper backdrop={movie.backdrop_path}>

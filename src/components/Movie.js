@@ -18,8 +18,7 @@ import NoImage from '../images/no_image.jpg';
 
 // Hook
 
-import { useMovieFetch } from '../hooks/useMovieFetch'
-import { act } from 'react-dom/test-utils';
+import { useMovieFetch } from '../hooks/useMovieFetch';
 
 
 const Movie = () => {
